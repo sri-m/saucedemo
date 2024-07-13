@@ -9,4 +9,6 @@ Prerequisites:
 8. npx playwright test --headed
 9. after executing run report command from cmd and project root folder
 10. npx playwright show-report
-![Screenshot (124)](https://github.com/user-attachments/assets/d4c151a7-8e47-4dc5-aa57-05a32adf13c7)
+
+![Screenshot (125)](https://github.com/user-attachments/assets/6eaff3d8-3265-451e-b02c-74a401b3180a)
+
