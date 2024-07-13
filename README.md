@@ -5,3 +5,5 @@ Prerequisites:
 4. connect with project folder from cmd and run below commands one by one
 5. npm install
 6. npx playwright test --headed
+after executing run report command from cmd and project root folder
+7. npx playwright show-report
