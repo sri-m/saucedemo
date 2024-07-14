@@ -22,7 +22,7 @@ test('Login with Valid credentials and logOut', async ({ page }) => {
   console.log(msg);
 });
 
-test.only('Product Sorting', async ({ page }) => {
+test('Product Sorting', async ({ page }) => {
   const saucedemo = new LogIn(page);
   await saucedemo.openApplication();
   await saucedemo.clickLogIn(saucedemo.userNameVal(), saucedemo.passwordValidVal());
