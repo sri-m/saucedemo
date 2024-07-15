@@ -47,7 +47,7 @@ test('Product Sorting', async ({ page }) => {
   await page.waitForTimeout(1000);
 });
 
-test.only('Add to Cart and Remove from Cart', async ({ page }) => {
+test('Add to Cart and Remove from Cart', async ({ page }) => {
   const saucedemo = new LogIn(page);
   await saucedemo.openApplication();
   await saucedemo.clickLogIn(saucedemo.userNameVal(), saucedemo.passwordValidVal());
