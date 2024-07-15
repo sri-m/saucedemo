@@ -60,7 +60,6 @@ test('Add to Cart and Remove from Cart', async ({ page }) => {
     //expect(saucedemo.cartItems().count()).toEqual(saucedemo.cartBadge().count());  //validating count
     await saucedemo.removeItem().first().click();  //removed product1 to cart
     //expect(saucedemo.removeItem().count()).toEqual(saucedemo.cartBadge().count());  //validating count
-    //expect(saucedemo.removeFromCart().first().textContent()).toEqual(saucedemo.allItems().first().textContent());//validating product removed from cart
     const msg = "Products are Added and Removed successfull.";
     console.log(msg);
   }
